@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+<div class="container">
+    <div><img src="inmages/Ai-la-trieu-phu.jpg" height="256" width="700"/></div>
+    <div id="content">Bạn Có Muốn Trở Thành Một Tỷ Phú??</div>
+    <div id="question-container" class="hide">
+        <div id="question"></div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn" id='0' onclick="myFunction(this.id)"></button>
+            <button class="btn" id='1' onclick="myFunction(this.id)"></button>
+            <button class="btn" id='2' onclick="myFunction(this.id)"></button>
+            <button class="btn" id='3' onclick="myFunction(this.id)"></button>
+        </div>
+        <div>
+            <button class="Dong_y" onclick="checkWin(id)">Đồng ý</button>
+        </div>
+    </div>
+    <div class="controls">
+        <button id="start-btn" class="start-btn btn sub-btn" onclick="startGame()">Bắt Đầu Chơi</button>
+        <button id="opinion" class="next-btn btn hide sub-btn">Hỏi ý Kiến Khán Giả</button>
+        <button id="50:50" class="next-btn btn hide sub-btn">50:50</button>
+        <button id="stop-btn" class="next-btn btn hide sub-btn">Dừng Cuộc Chơi</button>
+    </div>
+    </div>
+</div>
+</body>
+</html>

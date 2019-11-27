@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.democlass {
+    width: 350px;
+    height: 50px;
+    float: left;
+    border-radius: 20px;
+    background: #f1c40f;
+    font-size: 17px;
+    margin-top: 10px;
+
+}
+
+.container {
+    width: 700px;
+    height: 400px;
+    background: #ffffff;
+    margin: 30px auto;
+
+}
+#content {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+#question-container {
+    width: 700px;
+    height: 300px;
+}
+
+#question {
+    width: 700px;
+    height: 130px;
+    background: #27AE60;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+    line-height: 60px;
+}
+.Dong_y {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: orange;
+    margin: 10px 290px;
+    background: cyan;
+}
+.btn {
+    width: 350px;
+    height: 50px;
+    float: left;
+    border-radius: 20px;
+    background: #3987e2;
+    font-size: 17px;
+    margin-top: 10px;
+    color: white;
+}
+.btn-grid .btn:hover {
+    background: #27AE60;
+    color: white;
+    cursor: pointer;
+}
+
+.controls {
+    /*width: 150px;*/
+    height: 35px;
+    border-radius: 20px;
+    float: left;
+}
+
+.controls .sub-btn {
+    width: 175px;
+    float: left;
+}
+
+.controls .sub-btn:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+    font-size: 17px;
+    color: orange;
+}
